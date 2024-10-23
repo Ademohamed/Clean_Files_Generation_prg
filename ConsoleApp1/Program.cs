@@ -17,10 +17,11 @@ class Program
     static void Main(string[] args)
     {
         //if (args.Length < 3)
-        //{
-        //    Console.WriteLine("les arguments sont pas complets ...!!");
-        //    return;
-        //}
+        {
+            Console.WriteLine("les arguments sont pas complets ...!!");
+            return;
+        }
+        //version test
 
         string cheminFichier = args[0];   // Chemin vers le fichier Excel de données
         string cheminTranco = args[1];      // Chemin vers le fichier Excel de transco
